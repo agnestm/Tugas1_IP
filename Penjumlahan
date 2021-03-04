@@ -4,10 +4,12 @@ int main()
 {
   int a, b, c;
   
-  a = 5;
-  b = 5;
+  cout<<"Masukkan bilangan pertama : ";
+  cin>>a;
+  cout<<"Masukkan bilangan kedua : ";
+  cin>>b;
   
-  c = a * b;
+  c = a + b;
   
   cout<<"\nHasil = "<<c<<endl;
   return 0;
